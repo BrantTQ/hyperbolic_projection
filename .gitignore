@@ -1,5 +1,13 @@
 # Ignore EVERYTHING first
 *
+!/.gitignore
+!/.git/
+
+# Allow the folder itself (Crucial!)
+!scripts/
+
+# Allow the python files inside
+!scripts/*.py*
 
 # Do not ignore git files
 !/.gitignore
