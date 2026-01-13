@@ -1,0 +1,10 @@
+# Ignore EVERYTHING first
+*
+
+# Do not ignore git files
+!/.gitignore
+!/.git/
+
+# Do not ignore Python scripts
+!*.py
+!scripts/*.py
